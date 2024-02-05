@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Game Card</title>
+	<link rel="stylesheet" href="main.css" />
+	<script src="https://kit.fontawesome.com/032c2dd8c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="card">
+		<div class="card__inner">
+			<div class="card__face card__face--front">
+			</div>
+			<div class="card__face card__face--back">
+				<div class="card__content">
+					<div class="card__header" id="card__header">
+						<!-- <img src="pp.jpg" alt="" class="pp" /> -->
+						<i class="fa-solid fa-heart" id="heart"></i>
+						<h2> VALENTINES </h2>
+					</div>
+					<div class="card__body">
+						<h3>To Em :</h3>
+						<p>Hiiiiiii ! I got a question for you, it's very important so here it is : <br><br> "Will you be my valentine". <br><br> Notice how I didn't put a question mark? Yeah, it's not a question, you have no choice, but hey, here's two buttons to press anyways!</p>
+						<p><button id="yes" class='button' onclick="handleYesClick(event)">YES</button><button id="no" class="button" onclick="handleNoClick(event)">NO</button></p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
